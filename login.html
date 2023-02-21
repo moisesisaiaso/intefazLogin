@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/login.css"/>
+    </head>
+    <body>
+        <form action='/HttpSessionM/loginUp' method='post' name='f1'>
+            <div class="login-div">
+                <div class="logo">
+                    <img src="img/astro2.png" alt="alt"/>
+                </div>
+                <div class="title" >MOI Servlet</div>
+                <div class="sub-title" >HttpSession</div>
+                <div class="campos">
+                    <div class="username">
+                        <img src="img/email.svg" alt="carta"/>
+                        <input type="text" name="user" class='user-input' placeholder="username">
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="password">
+                        <img src="img/contraseña.svg" alt="candado"/>
+                        <input type="password" name="pass" class='pass-input' placeholder="password">
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <input type="submit" name="enviar" value="Login" class="login">
+                    <div class="link">
+                        <a href="#">Forgot password?</a> or <a href="#">Sing up</a>
+                    </div>
+                </div>
+
+            </div>
+         </form>
+    </body>
+</html>
